@@ -1,0 +1,34 @@
+/* Common rules */
+#wknd {
+    top: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+nav .default-content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li a {
+    padding: 15px 17px;
+}
+
+nav li a:hover {
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.columns-img-col img {
+    height: 200px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
