@@ -32,3 +32,26 @@ nav li a:hover {
     overflow: hidden;
     width: 100%;
 }
+
+.nav-tools #search {
+    border: none;
+    border-radius: 0;
+    color: #202020;
+    font-size: 9pt;
+    height: 40px;
+    background-color: #ebebeb8a;
+    background-image: url('../icons/search.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.nav-tools label {
+    display: none;
+}
+
+@media (width <= 600px) {
+  .nav-tools .button-container {
+    visibility: hidden;
+  }
+}

@@ -15,27 +15,41 @@ footer .footer p {
 }
 
 footer p strong {
-    font-size: 30px;
-    width: 12%;
+    font-size: 45px;
     float: left;
 }
 
-footer ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    justify-content: start;
-    margin-bottom: 2rem;
-    width: 50%;
+.social-links-container .default-content-wrapper {
+    width: 75%;
+    padding-top: 20px;
 }
 
-footer .default-content-wrapper:not(li) {
+.social-links-container .default-content-wrapper > ul {
+    display: inline-flex;
+    gap: 24px;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 25px;
+    margin-left: 5rem;
+    font-size: 14px;
+}
+
+footer .default-content-wrapper > ul > li{
+    cursor: pointer;
+}
+
+footer .default-content-wrapper > ul > li:hover {
+    text-decoration: underline;
+}
+
+.social-links-container .default-content-wrapper:not(li) {
     font-size: 12px;
     line-height: 1.7em;
 }
 
 @media (width >= 900px) {
     footer .footer > div {
-        padding: 40px 32px 24px;
+        padding: 20px 32px 24px;
     }
 }
