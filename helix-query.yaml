@@ -3,9 +3,7 @@ indices:
   site:
     include:
       - '**'
-    exclude:
-      - '/register'
-    target: /query-index
+    target: /query-index.json
     properties:
       author:
         select: head > meta[name="author"]
