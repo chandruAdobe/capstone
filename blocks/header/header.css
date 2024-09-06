@@ -280,7 +280,7 @@ header nav .nav-tools {
 .eds-top-header .quick-actions {
     list-style: none;
     padding-right: 25px;
-    margin: 0px;
+    margin: 0;
     font-size: 14px;
     text-transform: uppercase;
 }

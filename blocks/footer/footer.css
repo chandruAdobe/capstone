@@ -57,14 +57,16 @@ footer .default-content-wrapper > ul > li:hover {
 
 @media (width <= 768px) {
     .social-links-container .default-content-wrapper > ul {
-      margin-left: 0px;
-      padding-left: 0px;
+      margin-left: 0;
+      padding-left: 0;
       margin-top: 2rem;
       gap: 15px;
     }
+
     .social-links-container {
         flex-direction: column;
     }
+    
     .social-links-container .default-content-wrapper {
         width: 100%;
         flex-direction: column;
