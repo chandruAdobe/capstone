@@ -168,3 +168,13 @@
 .form .toggle-wrapper input:checked + .slider::before {
   transform: translateX(24px);
 }
+
+.registration-form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #000;
+  margin-top: 5rem;
+  color: #fff;
+  padding: 2rem 1.75rem;
+  margin-bottom: 5rem;
+}

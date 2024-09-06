@@ -147,6 +147,8 @@ export async function createForm(formURL) {
   const rules = [];
   // eslint-disable-next-line prefer-destructuring
   form.dataset.action = pathname.split('.json')[0];
+  // eslint-disable-next-line prefer-destructuring
+  form.className = pathname.split('.json')[0].replace('/', '');
   json.data.forEach((fd) => {
     fd.Type = fd.Type || 'text';
     const fieldWrapper = document.createElement('div');
@@ -189,6 +191,7 @@ export async function createForm(formURL) {
         console.warn(`Invalid Rule ${fd.Rules}: ${e}`);
       }
     }
+
     form.append(fieldWrapper);
   });
 

@@ -20,8 +20,10 @@ footer p strong {
 }
 
 .social-links-container .default-content-wrapper {
+    display: flex;
     width: 75%;
     padding-top: 20px;
+    flex-direction: row;
 }
 
 .social-links-container .default-content-wrapper > ul {
@@ -31,7 +33,6 @@ footer p strong {
     text-transform: uppercase;
     margin: 0;
     padding-bottom: 25px;
-    margin-left: 5rem;
     font-size: 14px;
 }
 
@@ -51,5 +52,21 @@ footer .default-content-wrapper > ul > li:hover {
 @media (width >= 900px) {
     footer .footer > div {
         padding: 20px 32px 24px;
+    }
+}
+
+@media (width <= 768px) {
+    .social-links-container .default-content-wrapper > ul {
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-top: 2rem;
+      gap: 15px;
+    }
+    .social-links-container {
+        flex-direction: column;
+    }
+    .social-links-container .default-content-wrapper {
+        width: 100%;
+        flex-direction: column;
     }
 }

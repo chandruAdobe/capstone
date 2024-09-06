@@ -33,3 +33,10 @@
     width: 20px;
     height: 20px;
 }
+
+
+@media (width <= 768px) {
+  .writer-lists {
+    flex-direction: column;
+  }
+}
