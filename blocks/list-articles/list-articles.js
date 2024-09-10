@@ -19,6 +19,7 @@ export default async function decorate(block) {
         title.className = 'mag-article-heading';
         title.textContent = row.title;
         const paragraph = document.createElement('p');
+        paragraph.className = 'article-desc';
         paragraph.textContent = row.description;
 
         link.appendChild(img);

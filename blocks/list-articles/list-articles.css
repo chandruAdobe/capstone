@@ -19,7 +19,7 @@
   text-decoration: none;
 }
 
-.magazine-article-item p {
+.magazine-article-item .article-desc {
   font-size: 14px;
   color: var(--text-color);
   text-transform: uppercase;
