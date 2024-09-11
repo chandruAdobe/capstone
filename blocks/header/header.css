@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  top: 22px;
 }
 
 header nav {
@@ -268,4 +269,26 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+.eds-top-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.eds-top-header .quick-actions {
+    list-style: none;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.eds-top-header .quick-actions a {
+  color: var(--light-color);
+}
+
+.eds-top-header .quick-actions a:hover {
+  text-decoration: none;
 }
